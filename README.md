@@ -17,10 +17,22 @@ This problem requires you to digitize the numbers in the `data` folder of this d
 1. A `code` folder containing all the Python code necessary to generate the output file and a filled out section of the readme explaining these contents and how to run the code. Please additionally ensure that the code is properly commented and easily readable. 
 1. The `output.txt` file containing the numbers printed on the documents in the data folder, in order and with a new line for each new entry. 
 
-## Setup instructions (YOU EDIT)
+## Setup instructions 
 
-Replace this text with instructions for recreating the environment necessary to run your code. 
+1. **Clone the Repository:**
 
-## Instructions to reproduce the output (YOU EDIT)
+    ```bash
+    git clone https://github.com/TheYibster/toy_OCR_task.git
 
-The `output.txt` file contained in this repository was generated with the code available in the `code/` folder....
+2. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+
+## Instructions to reproduce the output
+
+The `output.txt` file contained in this repository was generated with the code available in the `code/` folder. Simply run `main.py` within the `code/` folder.
+
+    ```bash
+    cd code
+    python3 main.py
