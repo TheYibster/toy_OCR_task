@@ -33,5 +33,13 @@ This problem requires you to digitize the numbers in the `data` folder of this d
 
 The `output.txt` file contained in this repository was generated with the code available in the `code/` folder. Simply run `main.py` within the `code/` folder.
 
+    # make sure you are in the code/ directory
     cd code
+
+Now, run the python script
+
+    python main.py 
+
+Or, on mac
+
     python3 main.py
